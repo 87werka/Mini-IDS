@@ -8,8 +8,8 @@ A single-file mini Intrusion Detection System (IDS) that detects TCP traffic ano
 - Windows:Npcap
 
 ## Run:
-In one terminal (as Administrator) run: python miniIDS.py
-In other terminal generate traffic e.g.: nmap  -sS 127.0.0.1
+1. In one terminal (as Administrator) run: python miniIDS.py
+2. In other terminal generate traffic e.g.: nmap  -sS 127.0.0.1
 
 ## Tunable parameters (in code):
 WINDOW - time window width [s]
