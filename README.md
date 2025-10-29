@@ -12,5 +12,5 @@ A single-file mini Intrusion Detection System (IDS) that detects TCP traffic ano
 2. In other terminal generate traffic e.g.: nmap  -sS 127.0.0.1
 
 ## Tunable parameters (in code):
-WINDOW - time window width [s]
-TRESH - threshold: number of packets from one IP in the window to trigger an alert [s]
+- WINDOW - time window width [s]
+- TRESH - threshold: number of packets from one IP in the window to trigger an alert [s]
