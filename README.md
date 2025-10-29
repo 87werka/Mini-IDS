@@ -3,9 +3,9 @@
 A single-file mini Intrusion Detection System (IDS) that detects TCP traffic anomalies (e.g. SYN-scan) within a time window.
 
 ## Requirements:
--> Python
--> Scapy: 'pip install scapy'
--> Windows:Npcap
+- Python
+- Scapy: 'pip install scapy'
+- Windows:Npcap
 
 ## Run:
 In one terminal (as Administrator) run: python miniIDS.py
